@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  /* justify-content: space-between; */
+  border: 2px solid black;
+  margin: 20px;
+  width: 300px;
+  padding: 10px;
+}
+.list-main {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  gap: 5px;
+}
+.list-main .arrow {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  background: no-repeat
+    url("https://carlosgraphicsprinting.com/wp-content/uploads/2020/07/plain-arrow-green-600x571.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.arrow {
+}
+.list-selected {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 50%;
+  gap: 5px;
+}
+.list-selected .arrow {
+  width: 30px;
+  height: 10px;
+  display: inline-block;
+  background: no-repeat
+    url("https://t4.ftcdn.net/jpg/03/05/91/99/360_F_305919942_nF9rIuUHxaWwZQITvce7ydC0sfQMPip2.jpg");
+  background-size: cover;
+  cursor: pointer;
+}
